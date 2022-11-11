@@ -5,6 +5,6 @@ import retrofit2.http.GET
 
 interface CryptoWebService {
 
-    @GET("cryptocurrency/listings/latest?limit=10")
+    @GET("v1/cryptocurrency/listings/latest?limit=10")
     suspend fun getAllCoins(): BaseResponse
 }

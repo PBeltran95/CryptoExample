@@ -22,7 +22,7 @@ android {
 
     buildTypes {
         debug {
-            buildConfigField "String", "BASE_URL", '"https://pro-api.coinmarketcap.com/v1/"'
+            buildConfigField "String", "BASE_URL", '"https://pro-api.coinmarketcap.com/"'
             buildConfigField "String", "API_KEY", '"debca6a5-51c3-48e2-8b16-c7274342f3b0"'
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
